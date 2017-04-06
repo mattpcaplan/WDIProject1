@@ -1,0 +1,190 @@
+/** {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+}*/
+html {
+  background: url(white-wood.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.wrapper{
+  position: relative;
+  width:640px;
+  margin:0 auto;
+}
+
+h1 {
+  text-align:center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 60px;
+  margin-bottom: -10px;
+  color: red;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#subheader {
+  text-align: center;
+  color: red;
+  font-size: 30px;
+
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+h2 {
+  text-align: center;
+}
+
+.level {
+  text-align: center;
+  margin: 0 auto;
+  color: red;
+  font-size: 20px;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.background{
+  position: absolute;
+  top:170px;
+  width:640px;
+  height: 640px;
+  background-color: #000;
+  border-radius: 310px;
+  margin-top: 50px;
+}
+
+.key {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 10px;
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+}
+
+#button1 {
+  border-top-left-radius: 300px;
+  background-color: green;
+}
+
+#button1:active {
+  background-color: white;
+}
+
+#button2 {
+  float: left;
+  border-top-right-radius: 300px;
+  background-color: red;
+  clear: right;
+}
+
+#button2:active {
+  background-color: white;
+}
+
+#button3 {
+  float: left;
+  border-bottom-left-radius: 300px;
+  background-color: magenta;
+  clear: left;
+}
+
+#button3:active {
+  background-color: white;
+}
+
+#button4 {
+  float: left;
+  border-bottom-right-radius: 300px;
+  background-color: blue;
+}
+
+#button4:active {
+  background-color: white;
+}
+
+.center {
+  position: absolute;
+  top: 195px;
+  left: 195px;
+  width: 250px;
+  height: 250px;
+  background: black;
+  border-radius: 125px;
+}
+
+/*.level, .score {
+  width: 60%;
+  float: left;
+  text-align: center;
+}*/
+
+#score {
+  margin-left: 550px;
+  margin-bottom: -20px;
+}
+
+#score, #highScore{
+  font-size: 20px;
+  color: red;
+  font-weight:bold;
+  /*text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;*/
+}
+
+#score {
+  transform
+}
+
+.startButton {
+  width: 10%;
+  margin: 0 auto;
+}
+
+.start {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: red;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.resetButton {
+  width: 40%;
+  margin-left: 296px;
+  margin-botton: 30px;
+}
+
+.reset {
+  height: 30px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: red;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.start:active{
+  background-color: transparent;
+}
+
+#infoBox {
+  margin-top: 90px;
+  border: 3px solid black;
+}
